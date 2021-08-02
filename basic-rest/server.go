@@ -12,7 +12,7 @@ import (
 	"sync"
 )
 
-// Start reading this from main(), then return here
+// Start reading this from main(), then return here.
 
 type Product struct {
 	Name  string  `json:"name"` // Struct Tags are used in Json Marshalling to change key names.
